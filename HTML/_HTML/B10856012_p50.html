@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pratice - Create Table Part III</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Oswald|Sawarabi+Mincho|Ubuntu|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <style>
+        body 
+        {
+            font-size: 18px;
+            font-family: 'Ubuntu';
+        }
+
+        .Japanese
+        {
+            color: green;
+            font-weight:bold;
+            font-size: 1.2em;
+            font-style:oblique;
+            font-family: "Sawarabi Mincho";
+        }
+
+        .Chinese
+        {
+            color: purple;
+            font-weight:bold;
+            font-style:oblique;
+            font-family: "Noto Sans TC";
+        }
+
+        caption 
+        {
+            color: blue;
+            letter-spacing: 0.2em;
+            font-family: "Oswald";
+            text-transform:uppercase;
+            text-decoration:underline;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        caption:visited{
+            text-transform:capitalize;
+        }
+
+        .first_row
+        {
+            color: white;
+            font-size: 1.5em;
+            background-color: green;
+            font-family: "Ubuntu Condensed";
+        }
+        
+        .first_Column
+        {
+            text-align: center;
+        }
+
+
+        .picture
+        {
+            width: 80%;
+            height: 80%;
+            text-align: center;
+        }
+
+        sup 
+        {
+            color: gray;
+            font-size: 0.5em;
+        }
+
+
+        table,
+        th,
+        td 
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td 
+        {
+            padding: 15px;
+        }
+
+        td 
+        {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        th 
+        {
+            font-size: 120%;
+
+        }
+
+        ul
+        {
+            line-height:1.5em;
+        }
+
+        tfoot
+        {
+            font-style:oblique;
+            background-color: palegoldenrod;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+                <a href=""><h1>Pokemon introduction</h1></a>
+        </caption>
+        <thead>
+            <tr class="first_row">
+                <th>Pokemon Name</th>
+                <th>Picture</th>
+                <th>Type</th>
+                <th>Species</th>
+                <th>Abilities</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first_Column">Jigglypuff <br> <span class="Chinese">(胖丁)</span></td>
+                <td><img src="https://vignette.wikia.nocookie.net/pokemon/images/3/3e/039Jigglypuff.png/revision/latest/scale-to-width-down/200?cb=20140328193313" class="picture"></td>
+                <td>Fairy</td>
+                <td>Balloon Pokémon</td>
+                <td>
+                    <ul>
+                        <li>Cute Charm</li>
+                        <li>Competitive</li>
+                        <li>Friend Guard<sup>(DW)</sup></li>
+                    </ul>
+                </td>
+                <td>Jigglypuff (Japanese: <span class="Japanese">プリン</span> Purin) is a dual-type Normal/Fairy Pokémon introduced in Generation I.</td>
+            </tr>
+            <tr>
+                <td class="first_Column">Meowth <br> <span class="Chinese">(喵喵)</span></tdclass="first_Column">
+                <td><img src="https://vignette.wikia.nocookie.net/pokemon/images/d/d6/052Meowth.png/revision/latest/scale-to-width-down/200?cb=20140328195855" class="picture"></td>
+                <td>Normal</td>
+                <td>Scratch Cat Pokémon</td>
+                <td>
+                    <ul>
+                        <li>Pickup</li>
+                        <li>Technician</li>
+                        <li>Unnerve<sup>(DW)</sup></li>
+                    </ul>
+                </td>
+                <td>Meowth (Japanese: <span class="Japanese">ニャース</span> Nyarth) is a Normal-type Pokémon introduced in Generation I.</td>
+            </tr>
+            <tr>
+                <td class="first_Column">Psyduck <br> <span class="Chinese">(可達鴨)</span></td>
+                <td><img src="https://vignette.wikia.nocookie.net/pokemon/images/5/53/054Psyduck.png/revision/latest/scale-to-width-down/200?cb=20140328195856" class="picture"></td>
+                <td>Water</td>
+                <td>Scratch Cat Pokémon</td>
+                <td>
+                    <ul>
+                        <li>Damp</li>
+                        <li>Cloud Nine</li>
+                        <li>Swift Swim<sup>(DW)</sup></li>
+                    </ul>
+                </td>
+                <td>Psyduck (Japanese: <span class="Japanese">コダック</span> Koduck) is a Water-type Pokémon introduced in Generation I.</td>
+            </tr>
+            <tr>
+                <td class="first_Column">Squirtle <br> <span class="Chinese">(小水龜)</span></td>
+                <td><img src="https://vignette.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png/revision/latest/scale-to-width-down/200?cb=20140328191525" class="picture"></td>
+                <td>Water</td>
+                <td>Tiny Turtle Pokémon</td>
+                <td>
+                    <ul>
+                        <li>Torrent</li>
+                        <li>Rain Dish<sup>(DW)</sup></li>
+                    </ul>
+                </td>
+                <td>Squirtle (Japanese: <span class="Japanese">ゼニガメ</span> Zenigame) is a Water-type Pokémon introduced in Generation I.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    Reference:<a href="https://pokemon.fandom.com/wiki/Category:Generation_I_Pok%C3%A9mon" target="_blank">FANDOM</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

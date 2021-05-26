@@ -1,0 +1,38 @@
+body
+{
+    font-family: "標楷體";
+}
+
+header
+{
+    color: green;
+    font-size: 36px;
+}
+
+dd
+{
+    color: red;
+    font-size: 24px;
+    font-family: "微軟正黑體";
+}
+
+sup
+{
+    color: blue;
+}
+
+.name
+{
+    font-size: 24px;
+    font-family: "微軟正黑體";
+}
+
+footer
+{
+    color: orange;
+}
+
+a
+{
+    color: orange;
+}

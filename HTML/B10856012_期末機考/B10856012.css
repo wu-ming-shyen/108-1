@@ -1,0 +1,80 @@
+body{
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:right top;
+    background-image: url(/image/map.jpg);
+}
+
+header{
+    color: green;
+    font-size: 120%;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing: 2em;
+    font-family: "微軟正黑體";
+}
+
+h1{
+    color: green;
+    font-size: 120%;
+    font-weight:bold;
+    text-align:center;
+    letter-spacing: 2em;
+    font-family: "微軟正黑體";
+}
+
+header:hover{
+    font-size: 150%;
+    color: yellow;
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+section{
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color: plum;
+    margin: 5em 5em 5em 5em;
+    padding: 2em 3em 1em 3em;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:10px 10px 10px 20px plum;
+}
+
+.first_p:first-letter{
+    color: purple;
+    font-size: 200%;
+}
+
+h2{
+    font-size: 200%;
+    font-weight:bold;
+    color: yellowgreen;
+    text-shadow: 1px 1px 3px black;
+}
+
+.日文{
+    color: green;
+    line-height:200%;
+    text-decoration:underline;
+}
+
+.發音{
+    vertical-align:sub;
+    color: blue;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 80%;
+}
+
+p{
+    text-indent: 2em;
+}
+
+table{
+    border-width: 95%;
+}

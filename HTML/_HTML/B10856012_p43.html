@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "標楷體";
+        }
+        
+        .延禧攻略 {
+            color: darkorchid;
+            font-size: 120%;
+        }
+        
+        header {
+            color: green;
+            font-size: 36px;
+            background-color: burlywood;
+        }
+        
+        dd {
+            color: red;
+            font-size: 24px;
+            font-family: "微軟正黑體";
+        }
+        
+        sup {
+            color: blue;
+        }
+        
+        .name {
+            font-size: 24px;
+            font-family: "微軟正黑體";
+        }
+        
+        .woman {
+            color: rgb(255, 0, 157);
+        }
+        
+        .man {
+            color: blue;
+        }
+        /*
+        #sec1 {
+            background-color: #EEFFBB;
+        }
+        
+        #dd1 {
+            color: purple;
+        }
+        
+        #sec2 {
+            background-color: #99FFFF;
+        }
+        
+        #dd2 {
+            color: peru;
+        }
+        */
+        
+        article>section {
+            background-color: #EEFFBB;
+        }
+        
+        article>section+section {
+            background-color: #99FFFF;
+        }
+        
+        article>section>dl>dd {
+            color: purple;
+        }
+        
+        article>section+section>dl>dd {
+            color: peru;
+        }
+        
+        footer {
+            color: orange;
+            background-color: lavender;
+        }
+        
+        a {
+            color: orange;
+        }
+        /*
+        #dt1-1,
+        #dt1-2,
+        #dt2-2,
+        #dt2-3 {
+            background-color: yellow;
+        }
+        */
+        
+        article>section>dl>dt {
+            background-color: yellow;
+        }
+
+        article>section+section>dl>dd+dt {
+            background-color: transparent;
+        }
+
+
+        /*
+        .background-color_green {
+            background-color: green;
+        }
+        */
+        
+        article>section+section>dl>dd+dt>blockquote>span {
+            background-color: green;
+        }
+
+        article>section+section>dl>dd+dt>blockquote>span~span {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        延禧攻略
+    </header>
+    <article>
+        <section id="sec1">
+            <dl id="dl1">
+                <dd id="dd1">
+                    簡介
+                </dd>
+                <dt id="dt1-1">
+                    <blockquote>
+                    <span class="延禧攻略">《延禧攻略》</span>（英語：Story of Yanxi Palace），2018年中國古裝劇。<br>
+                    由<span class="name woman">秦嵐</span> 、<span class="name man">聶遠</span>、<span class="name woman">佘詩曼</span>、<span class="name woman">吳謹言</span>、 <span class="name man">許凱</span>及<span class="name woman">譚卓</span>主演 <sup>[2][3]</sup><br>
+                    </blockquote>
+                </dt>
+                <br>
+                <dt id="dt1-2">
+                    <blockquote>
+                    2017年6月14日，<span class="延禧攻略">《延禧攻略》</span>在上海舉行開機發布會 。同年6月16日，<br>
+                    在浙江橫店影視城開機。開拍近4個月後，於10月14日全部殺青 <sup>[4]</sup>。<br>
+                    </blockquote>
+                </dt>
+            </dl>
+        </section>
+        <section id="sec2">
+            <dl id="dl2">
+                <dd id="dd2">
+                    劇情
+                </dd>
+                <dt id="dt2-1">
+                    <blockquote>
+                    乾隆六年，少女<span class="name woman background-color_green" >魏瓔珞</span>為尋求長姐死亡真相，入紫禁城為宮女；<br>
+                    經調查，<span class="name woman">魏瓔珞</span>證實姐姐之死與弘晝有關，立志要討回公道。<br>
+                    </blockquote>
+                </dt>
+                <br>
+                <dt id="dt2-2">    
+                    <blockquote>
+                    富察皇后嫻於禮法，擔心<span class="name woman">魏瓔珞</span>走上歧途，竭力給予她溫暖與幫助。<br>
+                    在富察皇后的悉心教導下， <span class="name woman">魏瓔珞</span>一步步成長為正直堅強的宮廷女官，並放下怨恨、認真生活。<br>
+                    富察皇后不幸崩逝，令<span class="name woman">魏瓔珞</span>對<span class="name man">乾隆皇帝</span>誤會重重，二人從互相敵視到最終彼此理解、互相扶持。<br>
+                    </blockquote>
+                </dt>
+                <br>
+                <dt id="dt2-3">     
+                    <blockquote>
+                    <span class="name woman">魏瓔珞</span>憑勇往直前的勇氣、機敏靈活的頭腦、寬廣博大的胸懷，化解宮廷上下的重重困難，<br>
+                    最終成為襄助<span class="name man">乾隆皇帝</span>盛世的令皇貴妃。
+                    </blockquote>
+                </dt>
+            </dl>
+        </section>
+    </article>
+    <footer>
+        資料來源:<a href="https://zh.wikipedia.org/wiki/%E5%BB%B6%E7%A6%A7%E6%94%BB%E7%95%A5" target="_blank">維基百科</a>
+    </footer>
+</body>
+
+</html>
